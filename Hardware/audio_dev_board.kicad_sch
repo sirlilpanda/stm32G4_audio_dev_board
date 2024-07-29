@@ -1,0 +1,179 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "12d3b0ce-758b-4939-919d-4f42b7bd226b")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 95.25 28.575) (xy 100.965 28.575)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259a0115-1591-42c2-9663-8e405ac4ffb9")
+	)
+	(wire
+		(pts
+			(xy 95.25 26.67) (xy 100.965 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5836e1-37b9-4fb2-bfc4-d852de672e4e")
+	)
+	(wire
+		(pts
+			(xy 95.25 24.13) (xy 100.965 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f152d034-fbaf-46a9-a319-b7e915c8ce01")
+	)
+	(sheet
+		(at 20.32 20.32)
+		(size 74.93 170.815)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03d07928-2762-431b-8274-8fa362f6f960")
+		(property "Sheetname" "micro_controller"
+			(at 20.32 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 20.32 191.7196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D-" input
+			(at 95.25 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98739520-ff51-4b98-bf45-8e9c48f88335")
+		)
+		(pin "PWR_SELC" input
+			(at 95.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "acaa480c-e481-4540-bb36-cd296cb902c0")
+		)
+		(pin "D+" input
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec0eb0f2-3e45-47a2-9509-8b75002ac545")
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.965 20.32)
+		(size 20.955 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45fff6f3-0996-49ae-9f70-76e3393e65b8")
+		(property "Sheetname" "POWER INPUT"
+			(at 100.965 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "function_power_input.kicad_sch"
+			(at 100.965 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_SELC" input
+			(at 100.965 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03f034e6-e4f4-47ad-af9e-731b72a63513")
+		)
+		(pin "D+" input
+			(at 100.965 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4b381a5-faa3-4f96-aeae-df1d390b974e")
+		)
+		(pin "D-" input
+			(at 100.965 28.575 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2cb5feb9-4839-45d4-9e0f-521dd9c77de2")
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
