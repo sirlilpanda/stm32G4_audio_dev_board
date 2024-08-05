@@ -104,6 +104,44 @@
 		)
 	)
 	(sheet
+		(at 101.6 43.18)
+		(size 20.32 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "457fb57b-55c9-4189-b55b-931c00e75ea9")
+		(property "Sheetname" "CODEC"
+			(at 101.6 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.kicad_sch"
+			(at 101.6 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_dev_board"
+				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 100.965 20.32)
 		(size 20.955 15.24)
 		(fields_autoplaced yes)

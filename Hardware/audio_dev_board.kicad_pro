@@ -394,6 +394,10 @@
     [
       "45fff6f3-0996-49ae-9f70-76e3393e65b8",
       "POWER INPUT"
+    ],
+    [
+      "457fb57b-55c9-4189-b55b-931c00e75ea9",
+      "CODEC"
     ]
   ],
   "text_variables": {}

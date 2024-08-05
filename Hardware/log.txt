@@ -1,0 +1,2 @@
+2:05:53 pm: File 'C:\Users\sca154\AppData\Local\Programs\KiCad\8.0\share\kicad\symbols\Audio.bak' couldn't be removed (error 0: The operation completed successfully.)
+2:05:53 pm: Failed to copy the file 'C:\Users\sca154\AppData\Local\Programs\KiCad\8.0\share\kicad\symbols\Audio.kicad_sym' to 'C:\Users\sca154\AppData\Local\Programs\KiCad\8.0\share\kicad\symbols\Audio.bak' (error 0: The operation completed successfully.)
