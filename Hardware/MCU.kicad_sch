@@ -5563,7 +5563,7 @@
 			(uuid "a3feee64-156d-43f4-bd07-bb777b7b5368")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/03d07928-2762-431b-8274-8fa362f6f960"
 					(reference "#PWR043")
 					(unit 1)
@@ -6931,7 +6931,7 @@
 			(uuid "dd627e53-1beb-473d-9ae7-5462e1865e92")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/03d07928-2762-431b-8274-8fa362f6f960"
 					(reference "R13")
 					(unit 1)
