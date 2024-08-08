@@ -1734,7 +1734,7 @@
 			(uuid "08a25ebd-38f4-40e0-a6d2-bd68702a1f4c")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "R15")
 					(unit 1)
@@ -2003,7 +2003,7 @@
 			(uuid "25980cca-0ece-4a25-be57-2350f55e0e80")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "#PWR044")
 					(unit 1)
@@ -2155,7 +2155,7 @@
 			(uuid "991e567e-7f2c-463a-9a6b-baf5f7aaa1e8")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "U4")
 					(unit 1)
@@ -2221,7 +2221,7 @@
 			(uuid "56c9b5bb-2175-4b81-a787-a6aa311dfcaa")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "#PWR047")
 					(unit 1)
@@ -2287,7 +2287,7 @@
 			(uuid "0b7a4c2d-1c48-4a39-952e-5f1fd1ee3667")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "#PWR048")
 					(unit 1)
@@ -2424,7 +2424,7 @@
 			(uuid "12bd6c06-d6c8-4613-ba1e-77f494859957")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "C17")
 					(unit 1)
