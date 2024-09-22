@@ -760,6 +760,10 @@
     [
       "457fb57b-55c9-4189-b55b-931c00e75ea9",
       "CODEC"
+    ],
+    [
+      "84424602-98d6-4ace-a19c-9e4063b63b68",
+      "STATUS_LEDS"
     ]
   ],
   "text_variables": {}
