@@ -3135,28 +3135,6 @@
 		)
 		(uuid "f9e43934-f200-4bf9-977c-f43b34193e96")
 	)
-	(global_label "NAU_MCLK"
-		(shape input)
-		(at 132.08 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "00bbceb9-6db8-4aeb-9fc4-71f8d964e26b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.3581 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NAU_RSPKOUT"
 		(shape output)
 		(at 177.8 146.05 0)
@@ -3289,50 +3267,6 @@
 			)
 		)
 	)
-	(global_label "NAU_SCLK"
-		(shape input)
-		(at 132.08 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "514338ea-b5ed-483b-b4ee-e2fd446da5ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.6 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NAU_FS"
-		(shape bidirectional)
-		(at 132.08 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e3b9e7d-8fbe-4ddd-91e4-789413ac0c25")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.9682 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RHP_OUT"
 		(shape input)
 		(at 262.89 119.38 0)
@@ -3355,28 +3289,6 @@
 			)
 		)
 	)
-	(global_label "NAU_BLCK"
-		(shape bidirectional)
-		(at 132.08 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8382e836-b881-4bd5-8615-38e010c0ac50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.4282 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "R_JACK_IN"
 		(shape input)
 		(at 49.53 60.96 180)
@@ -3390,50 +3302,6 @@
 		(uuid "88a61573-cbd9-455a-8a03-c82b65c64a1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.8081 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NAU_MODE"
-		(shape input)
-		(at 132.08 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8903dfc6-5169-4179-8abf-ab04dd52d4f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.1767 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NAU_DACIN"
-		(shape input)
-		(at 132.08 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f51d944-105a-445f-98c8-ca4ff2e7844f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.8137 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,28 +3355,6 @@
 			)
 		)
 	)
-	(global_label "NAU_ADCOUT"
-		(shape output)
-		(at 132.08 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc852036-8b00-4faa-917a-2163b6dcb4a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.1204 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LHP_OUT"
 		(shape input)
 		(at 262.89 100.33 0)
@@ -3549,50 +3395,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NAU_CSB"
-		(shape bidirectional)
-		(at 132.08 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c98d1d0d-7750-4262-b49d-874b188c015f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5168 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NAU_SDIO"
-		(shape input)
-		(at 132.08 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2b8f839-3fb4-4a6f-9af9-6050e1fff577")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.9628 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3640,6 +3442,114 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "NAU_ADCOUT"
+		(shape input)
+		(at 132.08 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27c2420c-192a-439d-a081-9d5109fba6d0")
+	)
+	(hierarchical_label "NAU_SDIO"
+		(shape input)
+		(at 132.08 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29504236-eff1-4c9c-88b4-4aae83699771")
+	)
+	(hierarchical_label "NAU_MODE"
+		(shape input)
+		(at 132.08 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4078d512-b306-48b5-8aaa-485721a6cca9")
+	)
+	(hierarchical_label "NAU_SCLK"
+		(shape input)
+		(at 132.08 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "891ebfef-36c0-43ed-8c82-a21efb1fc502")
+	)
+	(hierarchical_label "NAU_MCLK"
+		(shape input)
+		(at 132.08 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93814916-fc1e-4c08-b708-a2ca5fa248b5")
+	)
+	(hierarchical_label "NAU_BLCK"
+		(shape bidirectional)
+		(at 132.08 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "983d2026-49be-4810-ad25-0c2300c8b3fb")
+	)
+	(hierarchical_label "NAU_CSB"
+		(shape bidirectional)
+		(at 132.08 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98ead0dc-611f-435e-a442-098283ef4343")
+	)
+	(hierarchical_label "NAU_FS"
+		(shape bidirectional)
+		(at 132.08 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2f903ae-8178-4a52-a40c-8095d7b87a6a")
+	)
+	(hierarchical_label "NAU_DACIN"
+		(shape input)
+		(at 132.08 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcf5a040-1a6b-4c57-9069-f485450e6e30")
 	)
 	(symbol
 		(lib_id "power:VDDA")
@@ -4648,7 +4558,7 @@
 			(uuid "3a100b95-ad5b-4d16-a17e-0ea5d2b10c67")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "R24")
 					(unit 1)
@@ -6352,7 +6262,7 @@
 			(uuid "66e94cd1-c5e6-4c68-8b3f-27b504526cae")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "C41")
 					(unit 1)
@@ -6486,7 +6396,7 @@
 			(uuid "a68b12f5-9ec4-462c-8225-26d5644ed539")
 		)
 		(instances
-			(project ""
+			(project "audio_dev_board"
 				(path "/12d3b0ce-758b-4939-919d-4f42b7bd226b/457fb57b-55c9-4189-b55b-931c00e75ea9"
 					(reference "R25")
 					(unit 1)
