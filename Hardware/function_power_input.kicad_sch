@@ -4068,18 +4068,6 @@
 		(uuid "9eb341a4-7112-4986-9c1a-4e05cb529652")
 	)
 	(junction
-		(at 42.545 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5a2e3e0-6276-4899-9f7f-4d8c92417e77")
-	)
-	(junction
-		(at 42.545 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a62921fe-5ca0-4371-98c8-818b8768031c")
-	)
-	(junction
 		(at 100.965 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4151,16 +4139,6 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 172.72) (xy 42.545 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0544ab05-44f2-4748-b35c-43e392497704")
-	)
-	(wire
-		(pts
 			(xy 88.265 47.625) (xy 103.505 47.625)
 		)
 		(stroke
@@ -4198,16 +4176,6 @@
 			(type default)
 		)
 		(uuid "0b6e34b0-94ea-4545-9b21-2512d6e8d09b")
-	)
-	(wire
-		(pts
-			(xy 42.545 175.26) (xy 42.545 175.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c3bb597-2998-43ff-bed6-6ed69fc67def")
 	)
 	(wire
 		(pts
@@ -4761,7 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.545 170.18) (xy 42.545 172.72)
+			(xy 42.545 170.18) (xy 42.545 175.895)
 		)
 		(stroke
 			(width 0)
@@ -5409,6 +5377,16 @@
 			)
 		)
 		(uuid "01a3afda-df3d-452f-91ab-faebd8e032dc")
+	)
+	(text "GND = 5v\nfloating = 15v\nhigh = 20v"
+		(exclude_from_sim no)
+		(at 93.98 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3401aefd-d6a1-4e6d-8837-9772a3dca1ea")
 	)
 	(text "https://climbers.net/sbc/dual-rail-12v-dcdc-converter/"
 		(exclude_from_sim no)
